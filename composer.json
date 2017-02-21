@@ -1,0 +1,34 @@
+{
+  "name": "craftcms/vue-asset",
+  "description": "Vue.js asset bundle for Craft CMS",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "js",
+    "vue",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pixel & Tonic",
+      "homepage": "https://pixelandtonic.com/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/craftcms/vue/issues?state=open",
+    "source": "https://github.com/craftcms/vue",
+    "docs": "https://github.com/craftcms/vue",
+    "rss": "https://github.com/craftcms/vue/commits/master.atom"
+  },
+  "require": {
+    "cracraftcms/cms": "~3.0.0-beta.1",
+    "npm-asset/vue": "~2.1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\vue\\": ""
+    }
+  }
+}
