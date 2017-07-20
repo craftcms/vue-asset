@@ -24,7 +24,7 @@ class Asset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = '@npm/vue/dist';
+        $this->sourcePath = __DIR__.'/lib';
 
         $this->js = [
             $this->jsFile.$this->dotJs(),
