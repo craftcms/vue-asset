@@ -25,12 +25,6 @@
   "require": {
     "craftcms/cms": "~3.0.0-beta.1"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "craft\\vue\\": ""
