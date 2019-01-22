@@ -1,3 +1,8 @@
+> ⛔️ **This package has been deprecated.** \
+> Craft plugins should register the [craft\web\assets\vue\VueAsset](https://docs.craftcms.com/api/v3/craft-web-assets-vue-vueasset.html#public-properties) asset bundle instead.
+
+---
+
 Vue.js Asset Bundle for Craft CMS
 =================================
 
